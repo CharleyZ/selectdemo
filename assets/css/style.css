@@ -1,0 +1,136 @@
+.top_space{
+	height: 55px;
+	width: 100%-100px;
+	background: #000000 ;
+	font-size: 40px;
+	color:white;
+	text-align: left;
+	padding-left: 100px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+    text-align: center;
+	background-color: white;
+	min-height: 100%;
+    position: relative;
+}
+
+#wrapper{
+   background-color: white ;
+   font-family: arial, sans-serif;
+   text-align: center;
+   width: 75%;
+	vertical-align: baseline;
+ margin: 0 auto;
+  height: 100%;
+  min-height: 700px;
+}
+
+#input_div{
+    padding-top: 30px;
+    padding: 10px;
+     color:white;
+    vertical-align: baseline;
+    background: #282828;
+}
+
+#input_div .tips{
+    text-align: left;
+}
+
+#input_div div{
+    white-space:nowrap;
+}
+
+#input_div label{
+ font-size: 20px;
+ margin-top: 10px;
+}
+
+#input_div input{
+ font-size: 20px;
+  margin-top: 10px;
+border-radius: 8px;
+padding: 3px;
+}
+
+#button_div{
+    background: #505050;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#button_div button{
+    margin: 5px;
+    padding: 10px;
+    border-color: grey;
+    font-size: 26px;
+    color:#006bb3;
+    vertical-align: baseline;
+    background-color: grey;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#data_div{
+    background:#A9A9A9;
+    overflow:auto; 
+    min-height: 500px;
+}
+
+
+#poster{
+   float:left;
+   width:50%;
+   overflow:hidden;
+}
+
+#poster img{
+    max-height: 400px;
+    max-width: 400px;
+}
+#data-div .movie_detail{
+   float:left;
+   width:50%;
+   overflow:hidden;
+
+}   
+
+#data_div{
+    background:#A9A9A9;
+     padding: 20px;
+}
+
+
+#data_div table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#data_div td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#data_div tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
+
+
+.foot_space{
+    height: 40px;
+    width: 100%-50px;
+    background: #000000 ;
+    font-size: 18px;
+    text-align: right;
+    padding-right: 50px;
+    color:white;
+}
